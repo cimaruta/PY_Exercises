@@ -1,0 +1,46 @@
+.rstrip()				#strips whitespace on the right side of string.
+.lstrip()				#strips whitespace on the left side of string.
+.strip()				#strips whitespace on both sides of string.
+\n						#tells python to move to a new line.
+\t						#tells python to start the next line with a tab.
+.upper()				#capitalizes each letter in a string.
+.lower()				#lower cases each letter in a string.
+.title()				#capitalizes letter of each word in a string.
+.removesuffix()			#removes suffix.
+.removeprefix()			#removes prefix.
+.append()				#adds an element to the end of a list.
+.insert()				#adds a new element to any position in a list.
+[]						#references an item in a list
+del						#remove an item according to its postion in a list.
+.pop()					#removes the last item in a list, but lets you work with that item after removing it.
+f{}						#used to embed expressions inside a string.
+.remove()				#removes a value by name from a list.
+.sort()					#changes the order of the list permanently.
+sorted(item)			#displays your list in a particular order thats not permanent.
+.reverse()				#displays a list in reverse order permanently, but can be reverted anytime by applying it again to the same list a second time.
+print(len(item))		#displays the length of a list in numerical value.
+min()					#prints the lowest number in a list
+max()					#prints the number of numbers in a list
+sum()					#prints the sum of a list of numbers
+range()					#used in a for loop to generate a series of numbers
+list(range())			#list a set of numbers in the given range
+for ### in ### :		#the for loop is used to perform the same operation on every element using an indentation
+DEFINITION: Tuple		#an immutable list
+.get()					#used with dictionaries to retrieve the value associated with a given key
+.keys()					#used in for statement to list the keys in a dictionary
+.values()				#used in a for statement to list the values in a dictionary
+set()					#a collection in which each item must be unique
+.items()				#used in a for loop to return key-value pairs
+input()					#pauses your program and waits for the user to enter some text.
++=						#takes the string that was assigned to the variable and adds the new string onto the end
+int()					#converts a string to a numerical value
+%						#modulo operator, divides one number by another anumber and returns the remainder.
+while					#the while loop runs as long as or while a certain condition is true
+break					#used to exit a loop prematurely when a certain condition is met.
+DEFINITION: function	#named blocks of code designed to do one specific job
+def						#used to tell python you are defining a function
+DEFINITION: parameter	#a variable in the function definitions that acts as a placeholder for the value that will be passed to the function
+DEFINITION: argument	#the actual value or data passed to the functinon when it is called, which coresponds to the function parameter
+DEFINITION: keyword argument #a name-value pair that you pass to a function
+return					# takes a value from inside a function and sends it back to the line that called the function
+__init__()				#a special methodthat python runs automatically whenever we create a new instance based on a class
