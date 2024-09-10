@@ -24,9 +24,21 @@ def sort_list(rand_list):
             if rand_list[i] > rand_list[i+1]:
                 rand_list[i], rand_list[i+1] = rand_list[i+1], rand_list[i]
                 sorting = False
+    return rand_list
 
 
-normal_numbers = list(range(11))
 
 
-print(get_list(normal_numbers))
+numbers = list(range(11))
+
+random_list = get_list(numbers)
+
+
+print("Here is a random list!")
+print(random_list)
+
+
+sorted_list = sort_list(random_list)
+
+print("Now its sorted, mate.")
+print(sorted_list)
